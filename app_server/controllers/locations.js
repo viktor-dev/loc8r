@@ -6,6 +6,6 @@ module.exports = {
 		res.render('info', {title: 'Info'});
 	},
 	review: function(req, res) {
-		res.render('index', {title: 'Review'});
+		res.render('review', {title: 'Review'});
 	}
 };
