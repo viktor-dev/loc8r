@@ -1,9 +1,9 @@
 module.exports = {
 	list: function(req, res) {
-		res.render('index', {title: 'List'});
+		res.render('list', {title: 'List'});
 	},
 	info: function(req, res) {
-		res.render('index', {title: 'Info'});
+		res.render('info', {title: 'Info'});
 	},
 	review: function(req, res) {
 		res.render('index', {title: 'Review'});
